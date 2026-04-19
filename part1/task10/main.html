@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>Name</title>
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <legend>Log in:</legend>
+                <label for="login">Login: </label>
+                <input type="text" id="login" placeholder="Ivan">
+                <br><br>
+                <label for="pass">Pass: </label>
+                <input type="password" id="pass" placeholder="123ABC">
+            </fieldset>    
+        </form>
+        <br><br> 
+        <form>
+            <button>Кнопка</button>
+            <input type="button" value="Кнопка">
+        </form> 
+        <br><br>
+        <form>
+            <fieldset>
+                <legend>Resume</legend>
+                <label for="resume">О себе: </label>
+                <textarea 
+                    id="resume" 
+                    placeholder="My name is..."
+                    cols="40"
+                    rows="5"></textarea>
+                <input type="submit" value="Отправить резюме">
+            </fieldset>
+        </form>
+        <br><br>
+        <form>
+            <fieldset>
+                <legend>Соглашение</legend>
+                <input type="checkbox">
+                <label>Я ознакомлен с договором</label>
+                <br>
+                <input type="checkbox">
+                <label>Я принимаю лицензионное соглашение</label>
+                <br>
+                <input type="submit" value="Принять">
+            </fieldset>
+        </form>
+        <br><br>
+        <form>
+            <fieldset>
+                <legend>City</legend>
+                <label>Выбирите ваш город проживания: </label>
+                <select>
+                    <option>Москва</option>
+                    <option>Санкт-Петербург</option>
+                    <option>Ярославль</option>
+                </select>
+            </fieldset>
+        </form>
+        <br><br>
+        <form>
+            <fieldset>
+                <legend>City</legend>
+                <label>Выбирите языки программирования: </label>
+                <select multiple="4" size="3">
+                    <option selected>Python</option>
+                    <option>Java</option>
+                    <option>C++</option>
+                    <option>C#</option>
+                </select>
+            </fieldset>
+        </form>
+    </body>
+</html>

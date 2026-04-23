@@ -1,0 +1,25 @@
+#content {
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    border: solid gray 10px;
+    margin: 50px;
+}
+
+#content_box {
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    border: solid gray 10px;
+    margin: 50px;
+    box-sizing: content-box;
+}
+
+#border_box {
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    border: solid gray 10px;
+    margin: 50px;
+    box-sizing: border-box;
+}

@@ -1,0 +1,24 @@
+h1,
+h2 {
+    color: red;
+}
+
+.article {
+    color: blue;
+}
+
+#pass {
+    color: aqua;
+}
+
+/*[href] {
+    color: red;
+}*/
+
+[href*="https"] {
+    color: brown;
+}
+
+.header .nav .menu a {
+    color: red;
+}
